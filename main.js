@@ -1,23 +1,26 @@
-// modal window v1.0
-const modal = document.getElementById('myModal');
-const btn = document.getElementById('btn');
-const span = document.getElementsByClassName('close')[0];
+let currency = 26;
 
-// клік на кнопку для відкриття
-btn.onclick = () => {
-    modal.style.display = 'block';
-};
+const iphone = document.getElementById('iphone');
+const xiaomi = document.getElementById('xiaomi');
+const content = document.getElementsByClassName('content')[0];
+const error = document.getElementsByClassName('error')[0];
 
-// клік на хрестик
-span.onclick = () => {
-    modal.style.display = 'none';
-};
+controlPrice = () => {
+    if (currency > 26) return;
 
-// клік на на пусте місце у вікні браузера
-window.onclick =
-    e => {
-        if (
-            e.target === modal) {
-            modal.style.display = 'none';
-        }
-    };
+    else if (currency < 26 && currency > 23) {
+        currency = 26;
+        console.log(currency)
+    } else if (currency < 23 || currency === 23) {
+        content.style.display = 'none';
+        error.style.display = 'block';
+    }
+}
+controlPrice();
+
+const iphonePrice = 600 * currency;
+const xiaomiPrice = 200 * currency;
+
+
+iphone.innerText = iphonePrice;
+xiaomi.innerText = xiaomiPrice;
