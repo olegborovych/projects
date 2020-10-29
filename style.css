@@ -1,0 +1,23 @@
+.content {
+    margin: 0 auto;
+    background-color: rgb(111, 236, 138);
+    width: 50%;
+    height: 50vh;
+    border-radius: 5%;
+}
+
+.kurs {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kurs--text {
+    text-align: center;
+    color: black;
+}
+
+span {
+    margin-left: 20%;
+}
