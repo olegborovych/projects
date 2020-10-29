@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 248, 236);
+}
+
+.nav {
+    float: left;
+    width: 80%;
+    &__ul {
+        padding-top: 20px;
+    }
+    &__item {
+        display: inline;
+        font-family: "Montserrat", sans-serif;
+        width: 100%;
+        margin-right: 1.5%;
+        font-size: 20px;
+        cursor: pointer;
+        &:hover {
+            transition: color 0.2s linear 0s;
+            color: #1A9BDC;
+            border-bottom: 1px solid #1A9BDC;
+        }
+    }
+}
+
+.social {
+    float: right;
+    padding-top: 20px;
+}
+
+.icon-facebook:hover {
+    transition: color 0.2s linear 0s;
+    color: #1A9BDC;
+    cursor: pointer;
+}
+
+.icon-instagram:hover {
+    transition: color 0.2s linear 0s;
+    color: #1A9BDC;
+    cursor: pointer;
+}
+
+.content {
+    padding-top: 60px;
+    font-family: "Montserrat", sans-serif;
+}

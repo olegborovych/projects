@@ -1,0 +1,21 @@
+// Basic components (btn,colors,bg,etc)
+.container {
+    max-width: 1205px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    color: black;
+    /* Цвет ссылок */
+}
+
+a:visited {
+    color: black;
+    /* Цвет посещенных ссылок */
+}
+
+a:active {
+    color: black;
+    /* Цвет активных ссылок */
+}
