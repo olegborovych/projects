@@ -1,0 +1,24 @@
+.photo {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery a {
+    margin-top: 15px;
+    margin-left: 15px;
+    &:hover {
+        transform: scale(1.08);
+        transition: all 0.5s;
+    }
+}
+
+.gallery img {
+    display: block;
+}

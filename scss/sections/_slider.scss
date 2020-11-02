@@ -21,18 +21,18 @@
 .tittle {
     font-size: 34px;
     padding-bottom: 3%;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .description {
     font-size: 35px;
-    margin-left: 1.2%;
+    margin-left: 2%;
 }
 
 .phone {
     display: inline-flex;
     position: absolute;
-    left: 1.2%;
+    left: 2.4%;
     bottom: 75%;
 }
 
@@ -48,7 +48,7 @@
     position: absolute;
     top: 35%;
     right: 10%;
-    left: 1.6%;
+    left: 2.7%;
     &:hover {
         background-color: white;
         color: #1a9bdc;

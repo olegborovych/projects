@@ -1,6 +1,9 @@
 .choose {
     width: 100%;
     height: 850px;
+    background-image: url(/assets/img/choose.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
     &__tittle {
         padding-top: 100px;
         font-family: 'Montserrat', sans-serif;
@@ -16,5 +19,53 @@
         text-align: center;
         color: #6a6a6a;
         padding-top: 31px;
+    }
+    &__row {
+        display: flex;
+    }
+    &__row2 {
+        display: flex;
+    }
+    &__ico {
+        background-color: #139CDD;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    &__box {
+        width: 50%;
+        height: 160px;
+        margin-top: 7%;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+            transform: scale(1.08);
+            transition: all 0.6s;
+        }
+        &--ico {
+            display: flex;
+            justify-content: center;
+        }
+        &--img {}
+        &--tittle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: -0.75px;
+            color: #6f6f6e;
+            margin-top: 11px;
+            margin-left: 10px;
+        }
+        &--desc {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.88;
+            text-align: center;
+            color: #6a6a6a;
+            margin-top: 10px;
+        }
     }
 }
