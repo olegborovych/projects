@@ -5,5 +5,9 @@
 @import "basic/components"; // comp
 @import "basic/fonts"; // fonts
 @import "basic/mixins"; // mixins(colors,etc)
+@import "basic/burger"; // burger adaptive menu
 // Sections
 @import "sections/header"; // Header
+@import "sections/slider"; // Slider
+@import "sections/info"; // Information
+@import "sections/choose"; // Why choose us?

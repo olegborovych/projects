@@ -7,38 +7,123 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/icons/favico.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
     <link rel="stylesheet" href="style.css">
     <title>Дует ведучих "Друзі"</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__body">
-                <nav class="nav">
-                    <ul class="nav__ul">
-                        <li class="nav__item">
-                            <a href="#"></a>Home</li>
-                        <li class="nav__item">
-                            <a href="#"></a>About</li>
-                        <li class="nav__item">
-                            <a href="#"></a>Services</li>
-                        <li class="nav__item">
-                            <a href="#"></a>Gallery</li>
-                        <li class="nav__item">
-                            <a href="#"></a>Blog</li>
-                        <li class="nav__item">
-                            <a href="#"></a>Contact Us</li>
-                    </ul>
-                </nav>
-
-                <div class="social">
-                    <a href="https://www.facebook.com/profile.php?id=100056325092666" target="_blank"><span class="icon-facebook"></span></a>
-                    <a href="https://www.instagram.com/veduchi_druzi/" target="_blank"><span class="icon-instagram"></span></a>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <a href="#" class="header__logo">
+                        <img src="assets/img/logo.jpg" alt="">
+                    </a>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100056325092666" target="_blank"><span class="icon-facebook"></span></a>
+                        <a href="https://www.instagram.com/veduchi_druzi/" target="_blank"><span class="icon-instagram"></span></a>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li><a href="" class="header__link">Home</a></li>
+                            <li><a href="" class="header__link">About</a></li>
+                            <li><a href="" class="header__link">List</a></li>
+                            <li><a href="" class="header__link">Footer</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
+
+        <section class="slider">
+            <div class="sl">
+                <div class="sl_slide"><img src="assets/img/slider/header-1.jpg" width="100%" alt="">
+                    <div class="sl__text">
+                        <h1 class="tittle">Ведучі на ваше свято!</h1>
+                        <div class="phone"><img src="assets/img/phone.svg" alt="">
+                            <p class="description">0500700555</p>
+                        </div>
+                        <a href="#"><button class="btn">Замовити!</button></a>
+                    </div>
+                </div>
+                <div class="sl_slide"><img src="assets/img/slider/header-2.jpg" width="100%" alt="">
+                    <div class="sl__text">
+                        <h1 class="tittle">Ведучі на ваше свято!</h1>
+                        <div class="phone"><img src="assets/img/phone.svg" alt="">
+                            <p class="description">0500700555</p>
+                        </div>
+                        <a href="#"><button class="btn">Замовити!</button></a>
+                    </div>
+                </div>
+                <div class="sl_slide"><img src="assets/img/slider/header-3.jpg" width="100%" alt="">
+                    <div class="sl__text">
+                        <h1 class="tittle">Ведучі на ваше свято!</h1>
+                        <div class="phone"><img src="assets/img/phone.svg" alt="">
+                            <p class="description">0500700555</p>
+                        </div>
+                        <a href="#"><button class="btn">Замовити!</button></a>
+                    </div>
+                </div>
+                <div class="sl_slide"><img src="assets/img/slider/header-4.jpg" width="100%" alt="">
+                    <div class="sl__text">
+                        <h1 class="tittle">Ведучі на ваше свято!</h1>
+                        <div class="phone"><img src="assets/img/phone.svg" alt="">
+                            <p class="description">0500700555</p>
+                        </div>
+                        <a href="#"><button class="btn">Замовити!</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="info--flex">
+                <div class="info-item bg1">
+                    <div class="info--bd"><span class="icon-calendar info__img"></span></div>
+                    <h3 class="info__tittle">У будь який день</h3>
+                    <p class="info__desc">description 1 description 1 description 1</p>
+                </div>
+
+                <div class="info-item bg2">
+                    <div class="info--bd"><span class="icon-champagne-glass info__img"></span></div>
+                    <h3 class="info__tittle">Гості задоволені</h3>
+                    <p class="info__desc">description 1 description 1 description 1</p>
+                </div>
+
+                <div class="info-item bg3">
+                    <div class="info--bd"><span class="icon-microphone info__img"></span></div>
+                    <h3 class="info__tittle">Проведемо ваше свято</h3>
+                    <p class="info__desc">description 1 description 1 description 1</p>
+                </div>
+
+                <div class="info-item bg4">
+                    <div class="info--bd"><span class="icon-place info__img"></span></div>
+                    <h3 class="info__tittle">По всій Україні</h3>
+                    <p class="info__desc">description 1 description 1 description 1</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="choose">
+            <div class="container">
+                <div class="choose__tittle">
+                    <h2>Чому саме ми?</h2>
+                </div>
+                <div class="choose__desc">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est fugit, molestiae vitae ea nam blanditiis ad consectetur impedit at quod!</p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
