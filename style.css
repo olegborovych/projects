@@ -108,6 +108,10 @@ a:active {
   /* Цвет активных ссылок */
 }
 
+a {
+  color: black;
+}
+
 @font-face {
   font-family: "NexaBold", sans-serif;
   src: url("assets/fonts/NexaBold.ttf.woff") format("woff"), url("assets/fonts/NexaBold.ttf.svg#NexaBold") format("svg"), url("assets/fonts/NexaBold.ttf.eot"), url("assets/fonts/NexaBold.ttf.eot?#iefix") format("embedded-opentype");
